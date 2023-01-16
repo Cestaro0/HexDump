@@ -19,7 +19,7 @@ auto hxd::Init(int NumberOfArguments, char* FileRawData) -> void
 
 	if (!File.read(BinaryFile, SizeOfFile))
 	{
-		printf("Erro: Nao foi possivel ler os dados");
+		printf("Erro: Nao foi possivel ler os dados\n");
 	}
 
 	DumpHex(BinaryFile, SizeOfFile);
