@@ -28,10 +28,9 @@ auto hxd::Init(int NumberOfArguments, char* FileRawData) -> void
 auto hxd::DumpHex(const void* FileRawData, size_t SizeOfFile) -> void
 {
 	char AsciiVisualization[17];
-	size_t i, j;
 	AsciiVisualization[16] = '\0';
 
-	for (i = 0; i < SizeOfFile; ++i)
+	for (int i = 0; i < SizeOfFile; ++i)
 	{
 		printf("%02X ", ((unsigned char*)FileRawData)[i]);
 
@@ -58,7 +57,7 @@ auto hxd::DumpHex(const void* FileRawData, size_t SizeOfFile) -> void
 				{
 					printf(" ");
 				}
-				for (j = (i + 1) % 16; j < 16; ++j)
+				for (int j = (i + 1) % 16; j < 16; ++j)
 				{
 					printf("   ");
 				}
