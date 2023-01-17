@@ -1,4 +1,4 @@
 # Simple-HexDump
 Um simples HexDump, para estudos (em desenvolvimento)
 
-<img src="Simple-HexDump/img/source.png">
+<img src="img/source.png">
