@@ -1,5 +1,5 @@
-# Simple-HexDump
-Um simples HexDump, para estudos (em desenvolvimento)
+# Sample-HexDump
+Sample hex dump for studying manipulation and structure of binary files
 
 modo de usar:
 ```
